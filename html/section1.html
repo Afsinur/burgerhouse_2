@@ -1,0 +1,151 @@
+<style>
+  .sec1Div {
+    position: relative;
+    width: 100%;
+    font-size: 1rem;
+    color: #ffffee;
+    letter-spacing: 1px;
+
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 0.8) 5%,
+        rgba(0, 0, 0, 0.3) 20%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url(img/section1/bg.png);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec1Div a {
+    text-decoration: none;
+    color: #ffffee;
+  }
+
+  .sec1Div > div {
+    width: 100%;
+    padding: 0 0 120px 60px;
+  }
+
+  .sec1Div > div:nth-child(1) > a {
+    font-size: 2rem;
+  }
+
+  .sec1Div > div:nth-child(1) > a > img {
+    width: 60px;
+    margin: 10px;
+  }
+
+  .sec1Div > div:nth-child(1) > ul {
+    list-style: none;
+  }
+
+  .sec1Div > div:nth-child(1) > ul > li > a {
+    font-size: 1.6rem;
+    font-weight: 500;
+
+    padding: 10px 30px;
+  }
+
+  .s1_cld_2 {
+    height: 100%;
+  }
+
+  .s1_cld_2 > div {
+    width: 60%;
+    height: 100%;
+  }
+
+  .s1_cld_2 > div > h1 {
+    font-size: 5.8rem;
+  }
+
+  .s1_cld_2 > div > p {
+    font-size: 2rem;
+    margin: 20px 0 40px 0;
+  }
+
+  .s1_cld_2 > div > a {
+    font-size: 1.8rem;
+    font-weight: 500;
+
+    padding: 10px 40px;
+    background-color: #f64b3c;
+    border-radius: 30px;
+  }
+
+  /*----*/
+  @media screen and (max-width: 1200px) {
+    .sec1Div {
+      position: relative;
+    }
+
+    .s1_cld_2 > div {
+      width: 100%;
+    }
+  }
+  /*----*/
+  @media screen and (max-width: 820px) {
+    .sec1Div {
+      position: relative;
+    }
+
+    .sec1Div > div {
+      padding: 0 5px 50px 5px;
+    }
+
+    .sec1Div > div:nth-child(1) > a {
+      font-size: 1.6rem;
+    }
+
+    .sec1Div > div:nth-child(1) > ul > li > a {
+      font-size: 1rem;
+      padding: 10px;
+    }
+
+    .s1_cld_2 > div > h1 {
+      font-size: 3.4rem;
+    }
+
+    .s1_cld_2 > div > p,
+    .s1_cld_2 > div > a {
+      font-size: 1.4rem;
+    }
+
+    .s1_cld_2 > div {
+      padding-top: 20px;
+    }
+  }
+</style>
+<!-- -->
+<div class="sec1Div">
+  <div class="flx-d-r sp-b f-wrp">
+    <a href="#" class="flx-d-r a-j-c">
+      <img
+        class="s1Img_1"
+        src="img/section1/header-left.png"
+        alt="header-left.png"
+      />
+      burger house
+    </a>
+
+    <ul class="s1Ul flx-d-r a-j-c f-wrp"></ul>
+  </div>
+
+  <div class="s1_cld_2 flx-d-c">
+    <div>
+      <h1>Get Cashback<br />upto 50%</h1>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim velit
+        ratione repellat suscipit sint.
+      </p>
+
+      <a href="#">ORDER NOW</a>
+    </div>
+  </div>
+</div>

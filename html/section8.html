@@ -1,0 +1,106 @@
+<style>
+  .sec8Div {
+    position: relative;
+    width: 100%;
+  }
+
+  .sec8Div > div {
+    width: 100%;
+    padding: 200px 0;
+    color: #f64b3c;
+    text-align: center;
+
+    background-image: url(img/section8/bg.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .sec8Div > div > h1 {
+    font-size: 5rem;
+    margin: 10px 0;
+  }
+
+  .sec8Div > div > p {
+    font-size: 2rem;
+    margin: 10px 0;
+    width: 60%;
+  }
+
+  .sec8Div > div > form {
+    width: 100%;
+    margin: 60px 0;
+  }
+
+  .sec8Div > div > form > input {
+    padding: 15px 40px;
+    font-size: 1.6rem;
+    border: none;
+  }
+
+  .sec8Div > div > form > input[type="email"] {
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+  }
+
+  .sec8Div > div > form > input[type="submit"] {
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+
+    background-color: #f64b3c;
+    color: #ffffee;
+    font-weight: 500;
+  }
+  /*----*/
+  @media screen and (max-width: 1200px) {
+    .sec8Div {
+      position: relative;
+    }
+  }
+  /*----*/
+  @media screen and (max-width: 820px) {
+    .sec8Div {
+      position: relative;
+    }
+
+    .sec8Div > div {
+      padding: 50px 0;
+    }
+
+    .sec8Div > div > h1 {
+      font-size: 3rem;
+    }
+
+    .sec8Div > div > p {
+      font-size: 1.4rem;
+      width: 98%;
+    }
+
+    .sec8Div > div > form > input {
+      padding: 10px 15px;
+      font-size: 0.8rem;
+    }
+  }
+</style>
+<!-- -->
+<div class="sec8Div">
+  <div class="flx-d-c a-j-c">
+    <h1>Don't miss Our Updates</h1>
+
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi reiciendis
+      tenetur dolorem quis ratione.
+    </p>
+
+    <form action="/" class="flx-d-r a-j-c">
+      <input
+        type="email"
+        name="s6_email"
+        id="id_s6_email"
+        placeholder="Your Email"
+        required
+      />
+
+      <input type="submit" value="SUBSCRIBE" />
+    </form>
+  </div>
+</div>

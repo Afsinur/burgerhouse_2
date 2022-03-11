@@ -1,0 +1,115 @@
+<style>
+  .sec9Div {
+    width: 100%;
+    position: relative;
+    background-color: #222222;
+    color: #ffffee;
+
+    font-size: 1.2rem;
+  }
+
+  .sec9Div a {
+    color: #aaa;
+    font-weight: 500;
+    padding: 12px 8px;
+  }
+
+  .sec9Div ul {
+    list-style: none;
+  }
+
+  .sec9Div h2 {
+    padding: 25px 0;
+  }
+
+  .sec9Div > div {
+    width: 100%;
+  }
+
+  .sec9Div > div > div {
+    width: 20%;
+    margin: 25px;
+  }
+
+  .sec9Div > div > div:nth-child(1) {
+    width: 50%;
+  }
+
+  .s9_ul_1 {
+    padding: 25px 0;
+  }
+  /*----*/
+  @media screen and (max-width: 1200px) {
+    .sec9Div {
+      position: relative;
+    }
+
+    .sec9Div > div {
+      flex-wrap: wrap;
+    }
+
+    .sec9Div > div > div:nth-child(1) {
+      width: 50%;
+    }
+
+    .sec9Div > div > div {
+      width: 50%;
+      margin: unset;
+      padding: 25px;
+    }
+  }
+  /*----*/
+  @media screen and (max-width: 820px) {
+    .sec9Div {
+      position: relative;
+    }
+
+    .sec9Div > div {
+      flex-direction: column;
+    }
+
+    .sec9Div > div > div:nth-child(1) {
+      width: 95%;
+    }
+
+    .sec9Div > div > div {
+      width: 95%;
+      margin: unset;
+      padding: 25px;
+    }
+  }
+</style>
+<!-- -->
+<div class="sec9Div flx-d-r a-j-c">
+  <div class="flx-d-r">
+    <div class="flx-d-c">
+      <h2>Title Here</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+        laudantium, magni, magnam adipisci blanditiis iure dolor consequuntur
+        soluta reiciendis, possimus eaque libero?
+      </p>
+
+      <ul class="s9_ul_1 flx-d-r"></ul>
+    </div>
+
+    <div class="flx-d-c">
+      <h2>About</h2>
+
+      <ul class="s9_ul_2"></ul>
+    </div>
+
+    <div class="flx-d-c">
+      <h2>Services</h2>
+
+      <ul class="s9_ul_3"></ul>
+    </div>
+
+    <div class="flx-d-c">
+      <h2>Other</h2>
+
+      <ul class="s9_ul_4"></ul>
+    </div>
+  </div>
+</div>

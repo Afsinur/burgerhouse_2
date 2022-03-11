@@ -1,0 +1,108 @@
+<style>
+  .sec5Div {
+    position: relative;
+    width: 100%;
+  }
+
+  .sec5Div > div {
+    width: 100%;
+    padding: 120px 0;
+
+    background-color: #f64b3c;
+    color: #ffffee;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  }
+
+  .sec5Div > div > h1 {
+    font-size: 4rem;
+  }
+
+  .sec5Div > div > p {
+    font-size: 1.6rem;
+    width: 50%;
+    padding: 30px 0;
+
+    text-align: center;
+  }
+
+  .s5-lstDv {
+    width: 90%;
+    justify-content: space-around;
+  }
+
+  .s5-lstDv > div {
+    height: 300px;
+    width: 300px;
+
+    padding: 50px;
+    border: 5px solid #ffffee;
+    border-radius: 50%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  }
+
+  .s5-lstDv > div > h1 {
+    font-size: 4rem;
+  }
+
+  .s5-lstDv > div > h2 {
+    font-size: 2rem;
+  }
+  /*----*/
+  @media screen and (max-width: 1200px) {
+    .sec5Div {
+      position: relative;
+    }
+
+    .s5-lstDv > div {
+      height: 235px;
+      width: 235px;
+    }
+
+    .sec5Div > div > p {
+      width: 90%;
+    }
+  }
+  /*----*/
+  @media screen and (max-width: 820px) {
+    .sec5Div {
+      position: relative;
+    }
+
+    .sec5Div > div {
+      padding: 60px 0;
+    }
+
+    .s5-lstDv {
+      flex-direction: column;
+    }
+
+    .s5-lstDv > div {
+      margin: 20px 0;
+    }
+
+    .s5-lstDv > div > h1 {
+      font-size: 3.8rem;
+    }
+
+    .s5-lstDv > div > h2 {
+      font-size: 1.8rem;
+    }
+
+    .sec5Div > div > p {
+      width: 98%;
+    }
+  }
+</style>
+<!-- -->
+<div class="sec5Div flx-d-c a-j-c">
+  <div class="flx-d-c a-j-c">
+    <h1>Statistics</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quae
+      voluptatum architecto amet rerum!
+    </p>
+
+    <div class="s5-lstDv flx-d-r a-j-c"></div>
+  </div>
+</div>

@@ -1,0 +1,132 @@
+<style>
+  .sec4Div {
+    position: relative;
+    width: 100%;
+  }
+
+  .sec4Div > div {
+    width: 100%;
+
+    background-image: url(img/section4/bg.png);
+    background-position: center;
+    background-size: cover;
+
+    flex-direction: row-reverse;
+  }
+
+  .sec4Div > div > div {
+    width: 50%;
+  }
+
+  .sec4Div > div > div:nth-child(1) {
+    background-image: url(img/section3/left.png);
+    background-position: center;
+    background-size: cover;
+
+    height: 500px;
+    width: 500px;
+    margin: 120px 100px;
+
+    border-radius: 50%;
+  }
+
+  .sec4Div > div > div:nth-child(2) {
+    height: 100%;
+    width: 40%;
+
+    font-size: 1.6rem;
+    color: #f64b3c;
+  }
+
+  .sec4Div > div > div:nth-child(2) > h1 {
+    font-size: 5rem;
+  }
+
+  .sec4Div > div > div:nth-child(2) > p {
+    margin: 60px 0;
+    font-size: 1.8rem;
+  }
+
+  .sec4Div > div > div:nth-child(2) > a {
+    color: #ffffee;
+    background-color: #f64b3c;
+    font-weight: 500;
+
+    padding: 10px 60px;
+    border-radius: 30px;
+
+    align-self: flex-start;
+  }
+
+  /*----*/
+  @media screen and (max-width: 1200px) {
+    .sec4Div {
+      position: relative;
+    }
+
+    .sec4Div > div > div:nth-child(1) {
+      height: 300px;
+      width: 300px;
+      margin: 60px;
+    }
+
+    .sec4Div > div > div:nth-child(2) {
+      width: 50%;
+      margin: 50px 0;
+    }
+
+    .sec4Div > div > div:nth-child(2) > h1 {
+      font-size: 4rem;
+    }
+  }
+  /*----*/
+  @media screen and (max-width: 820px) {
+    .sec4Div {
+      position: relative;
+    }
+
+    .sec4Div > div {
+      flex-direction: column-reverse;
+    }
+
+    .sec4Div > div > div:nth-child(2) {
+      width: 95%;
+    }
+
+    .sec4Div > div > div:nth-child(1) {
+      height: 200px;
+      width: 200px;
+      margin: 20px;
+    }
+
+    .sec4Div > div > div:nth-child(2) > h1 {
+      font-size: 3rem;
+    }
+
+    .sec4Div > div > div:nth-child(2) > p {
+      font-size: 1.4rem;
+      margin: 25px 0;
+    }
+
+    .sec4Div > div > div:nth-child(2) > a {
+      font-size: 1.2rem;
+    }
+  }
+</style>
+<!-- -->
+<div class="sec4Div flx-d-r a-j-c">
+  <div class="flx-d-r a-j-c">
+    <div></div>
+
+    <div class="flx-d-c sp-b">
+      <h1>Big Burger</h1>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nulla
+        odio ratione voluptas facere!
+      </p>
+
+      <a href="#">ORDER NOW</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,133 @@
+<style>
+  .sec2Div {
+    position: relative;
+    width: 100%;
+
+    background-image: url(img/section2/bg.png);
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    letter-spacing: 1px;
+    color: #f64b3c;
+  }
+
+  .sec2Div > h1 {
+    font-size: 3.8rem;
+    margin: 35px;
+  }
+
+  .sec2Div > p {
+    width: 70%;
+    font-size: 1.6rem;
+    font-weight: 500;
+
+    color: #e96054;
+  }
+
+  .s2LstDv {
+    width: 70%;
+    height: 70vh;
+  }
+
+  .s2LstDv > div {
+    position: relative;
+    width: 30%;
+    height: 100%;
+  }
+
+  .s2LstDv > div > div {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+
+    overflow: hidden;
+  }
+
+  .s2LstDv > div > div > img {
+    width: 240px;
+  }
+
+  .s2LstDv > div > h2 {
+    margin: 10px 0;
+
+    font-size: 2rem;
+  }
+
+  .s2LstDv > div > p {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  /*----*/
+  @media screen and (max-width: 1200px) {
+    .sec2Div {
+      position: relative;
+    }
+
+    .s2LstDv > div > div > img {
+      width: 180px;
+    }
+
+    .s2LstDv > div > div {
+      width: 180px;
+      height: 180px;
+    }
+  }
+  /*----*/
+  @media screen and (max-width: 820px) {
+    .sec2Div {
+      position: relative;
+      justify-content: unset;
+    }
+
+    .s2LstDv {
+      width: 100%;
+      margin-top: 10px;
+      height: 115vh;
+    }
+
+    .sec2Div > h1 {
+      font-size: 3.4rem;
+      margin: 10px;
+    }
+
+    .s2LstDv > div {
+      width: 100%;
+    }
+
+    .s2LstDv > div > div > img {
+      width: 150px;
+    }
+
+    .s2LstDv > div > div {
+      width: 150px;
+      height: 150px;
+    }
+
+    .s2LstDv {
+      flex-direction: column;
+    }
+
+    .s2LstDv > div > h2,
+    .s2LstDv > div > p {
+      font-size: 1.2rem;
+    }
+
+    .sec2Div > p {
+      font-size: 1.4rem;
+      width: 100%;
+      padding: 5px;
+    }
+  }
+</style>
+<!-- -->
+<div class="sec2Div flx-d-c a-j-c">
+  <h1>Our Chef</h1>
+
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+    possimus quam tempore deserunt blanditiis reprehenderit!
+  </p>
+
+  <div class="s2LstDv flx-d-r a-j-c sp-b"></div>
+</div>

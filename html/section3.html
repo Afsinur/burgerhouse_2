@@ -1,0 +1,128 @@
+<style>
+  .sec3Div {
+    position: relative;
+    width: 100%;
+  }
+
+  .sec3Div > div {
+    width: 100%;
+
+    background-color: #f64b3c;
+  }
+
+  .sec3Div > div > div {
+    width: 50%;
+  }
+
+  .sec3Div > div > div:nth-child(1) {
+    background-image: url(img/section3/left.png);
+    background-position: center;
+    background-size: cover;
+
+    height: 500px;
+    width: 500px;
+    margin: 120px;
+
+    border-radius: 50%;
+  }
+
+  .sec3Div > div > div:nth-child(2) {
+    height: 100%;
+    width: 40%;
+
+    font-size: 1.6rem;
+    color: #ffffee;
+  }
+
+  .sec3Div > div > div:nth-child(2) > h1 {
+    font-size: 5rem;
+  }
+
+  .sec3Div > div > div:nth-child(2) > p {
+    margin: 60px 0;
+    font-size: 1.8rem;
+  }
+
+  .sec3Div > div > div:nth-child(2) > a {
+    color: #f64b3c;
+    background-color: #ffffee;
+    font-weight: 500;
+
+    padding: 10px 60px;
+    border-radius: 30px;
+
+    align-self: flex-start;
+  }
+
+  /*----*/
+  @media screen and (max-width: 1200px) {
+    .sec3Div {
+      position: relative;
+    }
+
+    .sec3Div > div > div:nth-child(1) {
+      height: 300px;
+      width: 300px;
+      margin: 60px;
+    }
+
+    .sec3Div > div > div:nth-child(2) {
+      width: 50%;
+      margin: 50px 0;
+    }
+
+    .sec3Div > div > div:nth-child(2) > h1 {
+      font-size: 4rem;
+    }
+  }
+  /*----*/
+  @media screen and (max-width: 820px) {
+    .sec3Div {
+      position: relative;
+    }
+
+    .sec3Div > div {
+      flex-direction: column;
+    }
+
+    .sec3Div > div > div:nth-child(2) {
+      width: 95%;
+    }
+
+    .sec3Div > div > div:nth-child(1) {
+      height: 200px;
+      width: 200px;
+      margin: 20px;
+    }
+
+    .sec3Div > div > div:nth-child(2) > h1 {
+      font-size: 3rem;
+    }
+
+    .sec3Div > div > div:nth-child(2) > p {
+      font-size: 1.4rem;
+      margin: 25px 0;
+    }
+
+    .sec3Div > div > div:nth-child(2) > a {
+      font-size: 1.2rem;
+    }
+  }
+</style>
+<!-- -->
+<div class="sec3Div flx-d-r a-j-c">
+  <div class="flx-d-r a-j-c">
+    <div></div>
+
+    <div class="flx-d-c sp-b">
+      <h1>Best Burger</h1>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nulla
+        odio ratione voluptas facere!
+      </p>
+
+      <a href="#">ORDER NOW</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<style>
+  .sec9Div {
+    position: relative;
+  }
+  /*----*/
+  @media screen and (max-width: 1200px) {
+    .sec9Div {
+      position: relative;
+    }
+  }
+  /*----*/
+  @media screen and (max-width: 820px) {
+    .sec9Div {
+      position: relative;
+    }
+  }
+</style>
+<!-- -->
+<div class="sec9Div"></div>
